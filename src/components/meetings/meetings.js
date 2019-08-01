@@ -4,12 +4,12 @@ import mess from './meetings.module.css'
 export default function Meetings() {
 
     const images = [
-        'https://media.licdn.com/dms/image/C4E03AQEcd5iAomLimw/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=HE56f1IHTXlSpRNEyZja4fAsiwQQ7tttSU_QxyDb2Z4',
-        'https://media.licdn.com/dms/image/C4E03AQEcd5iAomLimw/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=HE56f1IHTXlSpRNEyZja4fAsiwQQ7tttSU_QxyDb2Z4',
-        'https://media.licdn.com/dms/image/C4E03AQEcd5iAomLimw/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=HE56f1IHTXlSpRNEyZja4fAsiwQQ7tttSU_QxyDb2Z4',
-        'https://media.licdn.com/dms/image/C4E03AQEcd5iAomLimw/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=HE56f1IHTXlSpRNEyZja4fAsiwQQ7tttSU_QxyDb2Z4',
-        'https://media.licdn.com/dms/image/C4E03AQEcd5iAomLimw/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=HE56f1IHTXlSpRNEyZja4fAsiwQQ7tttSU_QxyDb2Z4',
-        'https://media.licdn.com/dms/image/C4E03AQEcd5iAomLimw/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=HE56f1IHTXlSpRNEyZja4fAsiwQQ7tttSU_QxyDb2Z4'
+        'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
+        'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
+        'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
+        'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
+        'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg',
+        'https://content-static.upwork.com/uploads/2014/10/01073427/profilephoto1.jpg'
           ]
 
     return (

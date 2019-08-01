@@ -23,12 +23,12 @@
   background: white;
   border-radius: 15px;
   overflow: hidden;
-  height: 90vh;
+  height: 130vh;
 }
 
 .user{
   background: #E9AAA6;
-  height: fill;
+  height: 130vh;
   text-align: center
 }
 
