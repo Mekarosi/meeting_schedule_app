@@ -6,7 +6,8 @@ import Customform from '../customform/customform';
 import Duration from '../durations/duration';
 import Time from '../time/time'
 import Joi from '@hapi/joi'
-import { useDispatch,useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
+import axios from 'axios';
 
 
 
@@ -26,12 +27,28 @@ export default function Setmeetings() {
     })
 
 
+    handleClick = async event => {
+        event.preventDefault();
+        axios.post("http://localhost:5050/meetingschedule", this.state)
+            .then(response => {
+                console.log(response);
+                alert(`meeting schedule sent.`)
+            })
+            .catch(error => {
+                console.log(error);
+                alert(`Error encountered while sending`)
+            })
+    }
+
+
+
+
     const handleClick = (data) => {
         //console.log(8);
         
         const { error, value } = schema.validate(state)
         if (error) {
-            alert('hey fond error')
+            alert('error occurred')
             console.log(error);
             
         } else {
